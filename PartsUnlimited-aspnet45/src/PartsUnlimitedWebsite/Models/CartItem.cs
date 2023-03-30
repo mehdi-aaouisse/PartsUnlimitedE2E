@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        
         //my first change
         [Key]
         public int CartItemId { get; set; }
@@ -19,4 +20,4 @@ namespace PartsUnlimited.Models
 
         public virtual Product Product { get; set; }
     }
-}
+} 
